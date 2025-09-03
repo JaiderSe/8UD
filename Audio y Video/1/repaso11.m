@@ -23,7 +23,7 @@ a0 = -1/2;
 acumulador = a0 + acumulador;
 
 % Graficar Funciones
-hold on5
+hold on
 
 % Función Aproximada
 plot(t, acumulador, 'r', 'linewidth', 4);
