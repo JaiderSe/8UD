@@ -1,4 +1,5 @@
-clc; clear all;
+clc; 
+clear;
 
 % Definir Parámetros
 t = -2:0.01:2;
@@ -22,7 +23,7 @@ a0 = -1/2;
 acumulador = a0 + acumulador;
 
 % Graficar Funciones
-hold on
+hold on5
 
 % Función Aproximada
 plot(t, acumulador, 'r', 'linewidth', 4);
