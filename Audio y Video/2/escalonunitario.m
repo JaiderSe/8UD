@@ -9,8 +9,8 @@ u = @(t) (t >= 0);
 t = 0:0.1:10; 
 
 % Definir la función por partes
-y = 2.*(sin(2*pi*t)).*(u(t)-u(t-10)); % Oscilación senoidal entre t = 2 y t = 3
-
+y = (t).*(u(t)-u(t-1)); % Oscilación senoidal entre t = 2 y t = 3
+% 2.*(sin(2*pi*t))
 % Graficar la función
 plot(t, y, 'r', 'LineWidth', 2);
 axis([0 10 -2 2]); % Límites de los ejes
